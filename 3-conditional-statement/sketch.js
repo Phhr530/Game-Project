@@ -112,6 +112,11 @@ class Avatar {
     if (keyIsDown(68)){
       this.x += this.speed;
     }
+    if (keyIsDown(32)){
+      r = 255;
+      g = 255;
+      b = 255;
+    }
 	}
 
   die(){
